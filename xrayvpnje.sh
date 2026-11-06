@@ -77,3 +77,5 @@ echo "Xray binary: $XRAY_BIN"
 # Verify installation
 /usr/bin/xray version
 rm -rf "$0"
+sleep 1 >/dev/null 2>&1
+reboot
